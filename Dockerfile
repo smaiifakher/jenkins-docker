@@ -5,6 +5,7 @@ USER root
 RUN apt-get update && \
     apt-get install -y apt-transport-https \
                        make \
+    docker-compose-plugin \
                        ca-certificates \
                        curl \
                        gnupg2 \
